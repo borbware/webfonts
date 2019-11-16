@@ -1,0 +1,49 @@
+/*unscii font from github*/
+@font-face {
+    font-family: 'unscii16';
+    src: url('https://raw.githubusercontent.com/borbware/webfonts/master/unscii-16x8/unscii-16-webfont.eot');
+    src: url('https://raw.githubusercontent.com/borbware/webfonts/master/unscii-16x8/unscii-16-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://raw.githubusercontent.com/borbware/webfonts/master/unscii-16x8/unscii-16-webfont.woff2') format('woff2'),
+         url('https://raw.githubusercontent.com/borbware/webfonts/master/unscii-16x8/unscii-16-webfont.woff') format('woff'),
+         url('https://raw.githubusercontent.com/borbware/webfonts/master/unscii-16x8/unscii-16-webfont.ttf') format('truetype'),
+         url('https://raw.githubusercontent.com/borbware/webfonts/master/unscii-16x8/unscii-16-webfont.svg##unscii16') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*body*/
+.inner_column{
+  font-family: unscii16;
+}
+
+/*links*/
+.inner_column 
+a:link {
+  text-decoration: underline; /*none*/
+  font-weight: normal;
+}
+
+a:visited {
+  text-decoration: underline; /*none*/
+  font-weight: normal;
+}
+
+
+
+/* hide default links*/
+.user_links {
+    display: none;
+    text-align: center;
+}
+
+.game_link a:link {
+	font-weight: normal;
+	font-size: 50pt;
+}
+
+
+/*en ees tiiä*/
+.game_grid_widget .game_cell .web_flag {
+    background: #6f2ee6;
+    color: #70f2a7;
+}

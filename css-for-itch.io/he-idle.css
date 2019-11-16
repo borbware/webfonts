@@ -1,0 +1,82 @@
+/*unscii font from github*/
+@font-face {
+    font-family: 'unscii16';
+    src: url('https://raw.githubusercontent.com/borbware/webfonts/master/unscii-16x8/unscii-16-webfont.eot');
+    src: url('https://raw.githubusercontent.com/borbware/webfonts/master/unscii-16x8/unscii-16-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://raw.githubusercontent.com/borbware/webfonts/master/unscii-16x8/unscii-16-webfont.woff2') format('woff2'),
+         url('https://raw.githubusercontent.com/borbware/webfonts/master/unscii-16x8/unscii-16-webfont.woff') format('woff'),
+         url('https://raw.githubusercontent.com/borbware/webfonts/master/unscii-16x8/unscii-16-webfont.ttf') format('truetype'),
+         url('https://raw.githubusercontent.com/borbware/webfonts/master/unscii-16x8/unscii-16-webfont.svg##unscii16') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*body*/
+.columns .left_col.column .formatted_description {
+    font-family:unscii16, Helvetica, sans-serif !important;
+    font-size:26px !important;
+    font-smooth: never !important;
+    -webkit-font-smoothing : none !important;
+}
+
+/*game title*/
+.header {
+    font-family:unscii16, Helvetica, sans-serif !important;
+    font-size:40px !important;
+    font-smooth: never !important;
+    text-align: center;
+    -webkit-font-smoothing : none !important;  
+}
+
+/*A downloadable game*/
+.header_buy_row {
+	visibility: hidden;
+}
+
+/*More information*/
+.toggle_info_btn {
+    font-family:unscii16, Helvetica, sans-serif !important;
+    font-size:20px !important;
+    font-smooth: never !important;
+    text-align: center;
+    -webkit-font-smoothing : none !important;  	
+}
+
+/*More information opened*/
+.game_info_panel_widget {
+    font-family:unscii16, Helvetica, sans-serif !important;
+    font-size:16px !important;
+    font-smooth: never !important;
+    text-align: center;
+    -webkit-font-smoothing : none !important;  		
+}
+
+/*------------------------
+     COMMENT SECTION
+------------------------*/
+
+/* Comments title */
+/* you might need to change the id numbers to suit your game*/
+#game_comments_react_widget_19933_Game-Comments_94759 {
+    font-family:unscii16, Helvetica, sans-serif !important;
+    font-size:20px !important;
+    font-smooth: never !important;
+    -webkit-font-smoothing : none !important;  
+}
+
+/* Write your comment */
+.community_post_form_widget {
+    font-family:unscii16, Helvetica, sans-serif !important;
+    font-size:16px !important;
+    font-weight: normal; /*somehow, this does not register. */
+    font-smooth: never !important;
+    -webkit-font-smoothing : none !important;  
+}
+
+/* Post comment, I guess other buttons too. */
+.button {
+	font-family:unscii16, Helvetica, sans-serif !important;
+    font-size:16px !important;
+    font-smooth: never !important;
+    -webkit-font-smoothing : none !important;  
+}
