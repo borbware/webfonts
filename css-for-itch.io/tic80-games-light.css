@@ -7,9 +7,16 @@
          url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.woff') format('woff'),
          url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.ttf') format('truetype'),
          url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.svg#tic-80_wide_fontregular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'tic80';
+    src: url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/TIC80-wide-font-light.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+
 
 /*'Support this game' button*/
 .view_game_page.view_html_game_page.ready.donate {
