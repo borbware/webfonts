@@ -36,19 +36,6 @@
     font-style: normal;
 }
 
-/*"Support this game" button*/ 
-.view_game_page.view_html_game_page.ready.donate {
-    margin: 20px;
-}
-
-/*body*/
-.columns .left_col.column .formatted_description {
-    font-family:m5x7, sans-serif !important;
-    font-size:30px !important;
-    font-smooth: never !important;
-    -webkit-font-smoothing : none !important;
-}
-
 /*game title*/
 .header {
     font-family:tic80, sans-serif !important;
@@ -58,6 +45,29 @@
     -webkit-font-smoothing : none !important;  
 }
 
+/*"Support this game" button*/ 
+.view_game_page.view_html_game_page.ready.donate {
+    margin: 20px;
+}
+
+/*body*/
+.left_col.column .formatted_description {
+    font-family:m5x7, sans-serif !important;
+    font-size:30px !important;
+    font-smooth: never !important;
+    -webkit-font-smoothing : none !important;
+}
+/*titles in body*/
+.formatted_description h3 {
+    font-family:tic80, sans-serif !important;
+    font-size:20px !important;
+    font-smooth: never !important;
+    -webkit-font-smoothing : none !important;
+}
+
+/*------------------------
+     MORE INFORMATION
+------------------------*/
 /*"More information"*/
 .toggle_info_btn {
     font-family:tic80, sans-serif !important;
@@ -136,6 +146,29 @@
     -webkit-font-smoothing : none !important;      
 }
 
+.post_grid {
+    font-family:m5x7, sans-serif !important;
+    line-height: 0px;
+    font-size:30px !important;
+    font-smooth: never !important;
+    -webkit-font-smoothing : none !important;
+}
+
+/*poster & time*/
+.post_header {
+    font-family:m5x7, sans-serif !important;
+    font-size:30px !important;
+    font-smooth: never !important;
+    -webkit-font-smoothing : none !important;
+}
+
+/*Reply delete report ban*/
+.post_footer {
+    font-family:m5x7, sans-serif !important;
+    font-size:20px !important;
+    font-smooth: never !important;
+    -webkit-font-smoothing : none !important;
+}
 /*------------------------
          BUTTONS
 ------------------------*/
