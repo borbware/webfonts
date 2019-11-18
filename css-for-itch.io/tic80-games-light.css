@@ -127,7 +127,7 @@
     padding: 25px;
 }
 
-.inner_column a:link {
+.inner_column .button a:link {
   /*text-decoration: underline; none*/
   color: #deeed6;
   font-weight: normal;

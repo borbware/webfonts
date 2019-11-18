@@ -1,3 +1,20 @@
+/*#140c1c
+#442434
+#30346d
+#4e4a4e
+#854c30
+#346524
+#d04648
+#757161
+#597dce
+#d27d2c
+#8595a1
+#6daa2c
+#d2aa99
+#6dc2ca
+#dad45e
+#deeed6
+*/
     /*TIC-80 font from github*/
     @font-face {
         font-family: 'tic80';
@@ -31,7 +48,12 @@
     }
     @font-face {
         font-family: 'm5x7';
-        src: url('https://raw.githubusercontent.com/borbware/webfonts/master/others/m5x7.ttf') format('truetype');
+        src: url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.eot');
+        src: url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.eot?#iefix') format('embedded-opentype'),
+             url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.woff2') format('woff2'),
+             url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.woff') format('woff'),
+             url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.ttf') format('truetype'),
+             url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.svg#tic-80_wide_fontregular') format('svg');
         font-weight: bold;
         font-style: normal;
     }
@@ -78,6 +100,10 @@
         line-height: 2em;
     }
 
+    /*bold text, align tic-80 font to m5x7 */
+    .formatted_description p strong {
+        vertical-align: bottom;
+    }    
 
     /*------------------------
          MORE INFORMATION
@@ -155,7 +181,7 @@
     /* list of files */
     .upload_list_widget .upload .info_column {
         font-size: 16px;
-        color: #30346d;
+        color: #442434;
         margin-left: 2em;
     }
 
@@ -203,6 +229,7 @@
         font-size:12px !important;
         font-smooth: never !important;
         -webkit-font-smoothing : none !important;
+    }
     /*------------------------
              BUTTONS
     ------------------------*/
@@ -225,7 +252,7 @@
         padding: 20px;
     }
 
-    .inner_column a:link {
+    .inner_column .button a:link {
       /*text-decoration: underline; none*/
       color: #deeed6;
       font-weight: normal;
