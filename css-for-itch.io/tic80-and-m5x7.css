@@ -10,23 +10,41 @@
     font-weight: bold;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'tic80';
-    src: url('https://raw.githubusercontent.com/borbware/webfonts/master/others/m5x7.ttf') format('truetype');
+    src: url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.eot');
+    src: url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.woff2') format('woff2'),
+         url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.woff') format('woff'),
+         url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.ttf') format('truetype'),
+         url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.svg#tic-80_wide_fontregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'm5x7';
+    src: url('https://raw.githubusercontent.com/borbware/webfonts/master/others/m5x7.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'm5x7';
+    src: url('https://raw.githubusercontent.com/borbware/webfonts/master/others/m5x7.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
 
-/*'Support this game' button*/
+/*"Support this game" button*/ 
 .view_game_page.view_html_game_page.ready.donate {
-    margin: 40px;
+    margin: 20px;
 }
 
 /*body*/
 .columns .left_col.column .formatted_description {
-    font-family:tic80, sans-serif !important;
-    font-size:20px !important;
+    font-family:m5x7, sans-serif !important;
+    font-size:30px !important;
     font-smooth: never !important;
     -webkit-font-smoothing : none !important;
 }
@@ -40,10 +58,10 @@
     -webkit-font-smoothing : none !important;  
 }
 
-/*More information*/
+/*"More information"*/
 .toggle_info_btn {
     font-family:tic80, sans-serif !important;
-    font-size:20px !important;
+    font-size:16px !important;
     font-smooth: never !important;
     text-align: center;
     -webkit-font-smoothing : none !important;   
@@ -51,8 +69,8 @@
 
 /*More information opened*/
 .game_info_panel_widget {
-    font-family:tic80, sans-serif !important;
-    font-size:20px !important;
+    font-family:m5x7, sans-serif !important;
+    font-size:30px !important;
     font-smooth: never !important;
     text-align: center;
     -webkit-font-smoothing : none !important;   
@@ -61,70 +79,83 @@
 
 /*More information opened, table spacing*/
 .game_info_panel_widget td {
-    padding: 6px 6px;
+    padding: 2px 6px;
     text-align: left;
 }
 
 /*------------------------
         DOWNLOADS
 ------------------------*/
-/*A downloadable game
+/*A downloadable game ?????
 .header_buy_row {
     visibility: hidden;
     height: 0px;
 }*/
 
-/* Downloads title */
+/* "Download" title, I've made it hidden. */
 #download {
     visibility: hidden;
-    height: 00px;
+    height: 0px;
+    margin: 0px;
 }
 
+/* "Name your own price" */
+.button_message {
+    font-family:m5x7, sans-serif !important;
+    font-size:30px !important;
+    font-smooth: never !important;
+    -webkit-font-smoothing : none !important;      
+}
+
+/* "Click download now to get access to the following files" */
 .uploads {
-    font-family:tic80, sans-serif !important;
-    font-size:16px !important;
+    font-family:m5x7, sans-serif !important;
+    font-size:30px !important;
     font-smooth: never !important;
     -webkit-font-smoothing : none !important;  
 }
 
-.button_message {
-    font-family:tic80, sans-serif !important;
-    font-size:16px !important;
-    font-smooth: never !important;
-    -webkit-font-smoothing : none !important;      
-}
+
 /*------------------------
      COMMENT SECTION
 ------------------------*/
 
 /* Comments title */
-/* you might need to change the id numbers to suit your game*/
-#game_comments_react_widget_19933_Game-Comments_94759 {
+.column .game_comments_widget {
     font-family:tic80, sans-serif !important;
-    font-size:20px !important;
+    font-size:12px !important;
     font-smooth: never !important;
-    -webkit-font-smoothing : none !important;  
+    -webkit-font-smoothing : none !important; 
+}
+/* comment writing box*/
+.community_post_form_widget {
+    font-family:m5x7, sans-serif !important;
+    line-height: 0px;
+    font-size:30px !important;
+    font-smooth: never !important;
+    -webkit-font-smoothing : none !important;      
 }
 
 /*------------------------
          BUTTONS
 ------------------------*/
 
-/* Post comment, I guess other buttons too. */
+/* buttons */
 .button {
     font-family:tic80, sans-serif !important;
-    font-size:20px !important;
+    font-size:16px !important;
     font-smooth: never !important;
     -webkit-font-smoothing : none !important;  
 }
 
-.buttons .button {
-    font-family: 'Anonymous Pro', sans-serif !important;
+/* "Post comment" button */
+.buttons.button {
+    font-family: tic80, sans-serif !important;
 }
 
 .inner_column .button {
     line-height: 0px;
-    padding: 25px;
+    padding: 20px;
 }
 
 .inner_column a:link {
