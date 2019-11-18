@@ -45,18 +45,22 @@
         -webkit-font-smoothing : none !important;  
     }
 
-    /*"Support this game" button*/ 
-    .view_game_page.view_html_game_page.ready.donate {
-        margin: 20px;
+    /*"Support this game" button but does not work???*/ 
+    .view_game_page .view_html_game_page .ready .donate {
+        color: black;
     }
 
-    /*body*/
+    /*------------------------
+               BODY
+    ------------------------*/
     .left_col.column .formatted_description {
         font-family:m5x7, sans-serif !important;
-        font-size:30px !important;
+        font-size:16px !important;
         font-smooth: never !important;
         -webkit-font-smoothing : none !important;
-        line-height: -5em;
+        max-width: 50em; 
+        margin: 0 auto; 
+        line-height: 5em;
 
     }
     /*titles in body*/
@@ -65,28 +69,39 @@
         font-size:20px !important;
         font-smooth: never !important;
         -webkit-font-smoothing : none !important;
+        margin: -1em;
     }
+
+    /* paragraphs */
+    .formatted_description p {
+        padding: 0.5em;
+        line-height: 2em;
+    }
+
 
     /*------------------------
          MORE INFORMATION
     ------------------------*/
     /*"More information"*/
-    .toggle_info_btn {
+    .more_information_toggle {
         font-family:tic80, sans-serif !important;
         font-size:16px !important;
         font-smooth: never !important;
-        text-align: center;
-        -webkit-font-smoothing : none !important;   
+        text-align: left;
+        -webkit-font-smoothing : none !important;
+        padding-top: 2em;
     }
 
     /*More information opened*/
     .game_info_panel_widget {
         font-family:m5x7, sans-serif !important;
-        font-size:30px !important;
+        font-size:16px !important;
         font-smooth: never !important;
-        text-align: center;
+        text-align: left;
         -webkit-font-smoothing : none !important;   
         letter-spacing: 1px;
+        /*max-width: 40em;
+        margin: 0 auto; if centered*/ 
     }
 
     /*More information opened, table spacing*/
@@ -112,17 +127,18 @@
     }
 
     /* "Name your own price" */
-    .button_message {
+    .button_message .buy_message {
         font-family:m5x7, sans-serif !important;
-        font-size:30px !important;
+        font-size:16px !important;
         font-smooth: never !important;
+        padding-left: 1em;
         -webkit-font-smoothing : none !important;      
     }
 
     /* "Click download now to get access to the following files" */
     .uploads {
         font-family:m5x7, sans-serif !important;
-        font-size:30px !important;
+        font-size:16px !important;
         font-smooth: never !important;
         -webkit-font-smoothing : none !important;  
     }
@@ -132,15 +148,15 @@
     }
 
     .upload_list_widget .upload {
-        margin-bottom: 0px;
-        margin-top: 0px;
+        margin-bottom: 10px;
+        margin-top: 5px;
     }
 
     /* list of files */
     .upload_list_widget .upload .info_column {
-        font-size: 30px;
+        font-size: 16px;
         color: #30346d;
-        margin-left: 1em;
+        margin-left: 2em;
     }
 
 
@@ -153,13 +169,14 @@
         font-family:tic80, sans-serif !important;
         font-size:12px !important;
         font-smooth: never !important;
-        -webkit-font-smoothing : none !important; 
+        -webkit-font-smoothing : none !important;
+        line-height: 4em;
     }
     /* comment writing box*/
     .community_post_form_widget {
         font-family:m5x7, sans-serif !important;
         line-height: 0px;
-        font-size:30px !important;
+        font-size:16px !important;
         font-smooth: never !important;
         -webkit-font-smoothing : none !important;      
     }
@@ -167,7 +184,7 @@
     .post_grid {
         font-family:m5x7, sans-serif !important;
         line-height: 0px;
-        font-size:30px !important;
+        font-size:16px !important;
         font-smooth: never !important;
         -webkit-font-smoothing : none !important;
     }
@@ -175,7 +192,7 @@
     /*poster & time*/
     .post_header {
         font-family:m5x7, sans-serif !important;
-        font-size:30px !important;
+        font-size:16px !important;
         font-smooth: never !important;
         -webkit-font-smoothing : none !important;
     }
@@ -183,7 +200,7 @@
     /*Reply delete report ban*/
     .post_footer {
         font-family:m5x7, sans-serif !important;
-        font-size:20px !important;
+        font-size:10px !important;
         font-smooth: never !important;
         -webkit-font-smoothing : none !important;
     }
