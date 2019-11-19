@@ -1,55 +1,79 @@
 /*unscii font from github*/
-@font-face {
-    font-family: 'unscii16';
-    src: url('https://raw.githubusercontent.com/borbware/webfonts/master/unscii-16x8/unscii-16-webfont.eot');
-    src: url('https://raw.githubusercontent.com/borbware/webfonts/master/unscii-16x8/unscii-16-webfont.eot?#iefix') format('embedded-opentype'),
-         url('https://raw.githubusercontent.com/borbware/webfonts/master/unscii-16x8/unscii-16-webfont.woff2') format('woff2'),
-         url('https://raw.githubusercontent.com/borbware/webfonts/master/unscii-16x8/unscii-16-webfont.woff') format('woff'),
-         url('https://raw.githubusercontent.com/borbware/webfonts/master/unscii-16x8/unscii-16-webfont.ttf') format('truetype'),
-         url('https://raw.githubusercontent.com/borbware/webfonts/master/unscii-16x8/unscii-16-webfont.svg##unscii16') format('svg');
+  @font-face {
+      font-family: 'unscii16';
+      src: url('https://raw.githubusercontent.com/borbware/webfonts/master/unscii-16x8/unscii-16-webfont.eot');
+      src: url('https://raw.githubusercontent.com/borbware/webfonts/master/unscii-16x8/unscii-16-webfont.eot?#iefix') format('embedded-opentype'),
+           url('https://raw.githubusercontent.com/borbware/webfonts/master/unscii-16x8/unscii-16-webfont.woff2') format('woff2'),
+           url('https://raw.githubusercontent.com/borbware/webfonts/master/unscii-16x8/unscii-16-webfont.woff') format('woff'),
+           url('https://raw.githubusercontent.com/borbware/webfonts/master/unscii-16x8/unscii-16-webfont.ttf') format('truetype'),
+           url('https://raw.githubusercontent.com/borbware/webfonts/master/unscii-16x8/unscii-16-webfont.svg##unscii16') format('svg');
+      font-weight: bold;
+      font-style: normal;
+  }
+  @font-face {
+      font-family: 'unscii16';
+      src: url('https://raw.githubusercontent.com/borbware/webfonts/master/unscii-16x8/unscii-16-light.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+  }
+
+  /* bg image, parallax scrolling*/
+  .user_page_wrap {
+    background-attachment: fixed; /*default*/
+    background-size: cover;
+    background-position: 50% 0%;
+     /*position: relative;
+    overflow: hidden;
+   transform: perspective(1px) translateZ(-1px);
+    transform: translateY(30px);*/
+    /*overflow-x: hidden;
+    overflow-y: auto;*/
+  }
+
+  .user_page_wrap:before {
+      position: absolute;
+      z-index: -1;
+      transform: rotate(-30deg);
+  }
+
+
+  /*body*/
+  .inner_column{
+    font-family: unscii16;
+  }
+
+  /*links*/
+  .inner_column 
+  a:link {
+    text-decoration: underline; /*none*/
     font-weight: bold;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'unscii16';
-    src: url('https://raw.githubusercontent.com/borbware/webfonts/master/unscii-16x8/unscii-16-light.ttf') format('truetype');
+  }
+
+  a:visited {
+    text-decoration: underline; /*none*/
+    font-weight: bold;
+  }
+
+  .inner_column h2{
+    line-height: 2em;
+  }
+
+
+
+  /* hide default links*/
+  .user_links {
+      display: none;
+      text-align: center;
+  }
+
+  .game_link a:link {
     font-weight: normal;
-    font-style: normal;
-}
-
-/*body*/
-.inner_column{
-  font-family: unscii16;
-}
-
-/*links*/
-.inner_column 
-a:link {
-  text-decoration: underline; /*none*/
-  font-weight: bold;
-}
-
-a:visited {
-  text-decoration: underline; /*none*/
-  font-weight: bold;
-}
+    font-size: 50pt;
+  }
 
 
-
-/* hide default links*/
-.user_links {
-    display: none;
-    text-align: center;
-}
-
-.game_link a:link {
-  font-weight: normal;
-  font-size: 50pt;
-}
-
-
-/*en ees tiiä*/
-.game_grid_widget .game_cell .web_flag {
-    background: #6f2ee6;
-    color: #70f2a7;
-}
+  /*en ees tiiä*/
+  .game_grid_widget .game_cell .web_flag {
+      background: #6f2ee6;
+      color: #70f2a7;
+  }
