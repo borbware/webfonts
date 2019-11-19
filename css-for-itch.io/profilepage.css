@@ -29,17 +29,32 @@
     /*overflow-x: hidden;
     overflow-y: auto;*/
   }
-
+/*
   .user_page_wrap:before {
       position: absolute;
       z-index: -1;
       transform: rotate(-30deg);
+  }
+*/
+    /*------------------------
+             BODY
+    ------------------------*/
+
+  /* hide default links*/
+  .user_links {
+      display: none;
+      text-align: center;
   }
 
 
   /*body*/
   .inner_column{
     font-family: unscii16;
+    font-smooth: never !important;
+    -webkit-font-smoothing : none !important;
+  }
+  .inner_column h2{
+    line-height: 2em;
   }
 
   /*links*/
@@ -54,26 +69,29 @@
     font-weight: bold;
   }
 
-  .inner_column h2{
-    line-height: 2em;
-  }
-
-
-
-  /* hide default links*/
-  .user_links {
-      display: none;
-      text-align: center;
-  }
-
+  /*no idea of this...?*/ /*
   .game_link a:link {
     font-weight: normal;
     font-size: 50pt;
-  }
+  }*/
 
-
-  /*en ees tiiä*/
+  /*"Play in browser"*/ 
   .game_grid_widget .game_cell .web_flag {
       background: #6f2ee6;
       color: #70f2a7;
   }
+
+    /*------------------------
+             FOOTER
+    ------------------------*/
+
+  .footer_inner {
+    font-family: unscii16;
+    font-size: 12pt;
+    font-smooth: never !important;
+    -webkit-font-smoothing : none !important;
+  }
+
+  .footer_inner:after {
+    content: "   I've sprinkled my corner of itch.io with custom css. If you need it, hmu!";
+}
