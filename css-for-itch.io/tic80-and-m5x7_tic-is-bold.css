@@ -181,7 +181,7 @@
     /* list of files */
     .upload_list_widget .upload .info_column {
         font-size: 16px;
-        color: #442434;
+        color: #346524;
         margin-left: 2em;
     }
 
@@ -245,6 +245,8 @@
     /* "Post comment" button */
     .buttons.button {
         font-family: tic80, sans-serif !important;
+        font-smooth: never !important;
+        -webkit-font-smoothing : none !important;
     }
 
     .inner_column .button {
