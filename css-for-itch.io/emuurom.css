@@ -1,0 +1,286 @@
+/*
+*/
+    /*TIC-80 font from github*/
+    @font-face {
+        font-family: 'tic80';
+        src: url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.eot');
+        src: url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.eot?#iefix') format('embedded-opentype'),
+             url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.woff2') format('woff2'),
+             url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.woff') format('woff'),
+             url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.ttf') format('truetype'),
+             url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.svg#tic-80_wide_fontregular') format('svg');
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'tic80';
+        src: url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.eot');
+        src: url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.eot?#iefix') format('embedded-opentype'),
+             url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.woff2') format('woff2'),
+             url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.woff') format('woff'),
+             url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.ttf') format('truetype'),
+             url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.svg#tic-80_wide_fontregular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'm5x7';
+        src: url('https://raw.githubusercontent.com/borbware/webfonts/master/others/m5x7.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'm5x7';
+        src: url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.eot');
+        src: url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.eot?#iefix') format('embedded-opentype'),
+             url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.woff2') format('woff2'),
+             url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.woff') format('woff'),
+             url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.ttf') format('truetype'),
+             url('https://raw.githubusercontent.com/borbware/webfonts/master/tic-80/tic-80_wide_font-webfont.svg#tic-80_wide_fontregular') format('svg');
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    /*game title*/
+    .header {
+        font-family:tic80, sans-serif !important;
+        font-size:40px !important;
+        font-smooth: never !important;
+        text-align: center;
+        -webkit-font-smoothing : none !important;
+    }
+
+    /*"Support this game" button but does not work???*/
+    .view_game_page .view_html_game_page .ready .donate {
+        color: black;
+    }
+
+    /*------------------------
+               BODY
+    ------------------------*/
+    .left_col.column .formatted_description {
+        font-family:m5x7, sans-serif !important;
+        font-size:16px !important;
+        font-smooth: never !important;
+        -webkit-font-smoothing : none !important;
+        max-width: 50em;
+        margin: 0 auto;
+        line-height: 5em;
+
+    }
+    /*titles in body*/
+    .formatted_description h3 {
+        font-family:tic80, sans-serif !important;
+        font-size:20px !important;
+        font-smooth: never !important;
+        -webkit-font-smoothing : none !important;
+        margin: -1em;
+    }
+
+    /* paragraphs */
+    .formatted_description p {
+        padding: 0.5em;
+        line-height: 2em;
+    }
+
+    /*bold text, align tic-80 font to m5x7 */
+    .formatted_description p strong {
+        vertical-align: bottom;
+    }
+
+    /*------------------------
+         MORE INFORMATION
+    ------------------------*/
+    /*"More information"*/
+    .more_information_toggle {
+        font-family:tic80, sans-serif !important;
+        font-size:16px !important;
+        font-smooth: never !important;
+        text-align: left;
+        -webkit-font-smoothing : none !important;
+        padding-top: 2em;
+    }
+
+    /*More information opened*/
+    .game_info_panel_widget {
+        font-family:m5x7, sans-serif !important;
+        font-size:16px !important;
+        font-smooth: never !important;
+        text-align: left;
+        -webkit-font-smoothing : none !important;
+        letter-spacing: 1px;
+        /*max-width: 40em;
+        margin: 0 auto; if centered*/
+    }
+
+    /*More information opened, table spacing*/
+    .game_info_panel_widget td {
+        padding: 2px 6px;
+        text-align: left;
+    }
+
+    /*------------------------
+            DOWNLOADS
+    ------------------------*/
+    /*A downloadable game ?????
+    .header_buy_row {
+        visibility: hidden;
+        height: 0px;
+    }*/
+
+    /* "Download" title, I've made it hidden. */
+    #download {
+        visibility: hidden;
+        height: 0px;
+        margin: 0px;
+    }
+
+    /* "Name your own price" */
+    .button_message .buy_message {
+        font-family:m5x7, sans-serif !important;
+        font-size:16px !important;
+        font-smooth: never !important;
+        padding-left: 1em;
+        -webkit-font-smoothing : none !important;
+    }
+
+    /* "Click download now to get access to the following files" */
+    .uploads {
+        font-family:m5x7, sans-serif !important;
+        font-size:16px !important;
+        font-smooth: never !important;
+        -webkit-font-smoothing : none !important;
+    }
+
+    .view_game_page .uploads p {
+
+    }
+
+    .upload_list_widget .upload {
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+
+    /* list of files */
+    .upload_list_widget .upload .info_column {
+        font-size: 16px;
+        color: #346524;
+        margin-left: 2em;
+    }
+
+
+    /*------------------------
+         COMMENT SECTION
+    ------------------------*/
+
+    /* Comments title */
+    .column .game_comments_widget {
+        font-family:tic80, sans-serif !important;
+        font-size:12px !important;
+        font-smooth: never !important;
+        -webkit-font-smoothing : none !important;
+        line-height: 4em;
+    }
+    /* comment writing box*/
+    .community_post_form_widget {
+        font-family:m5x7, sans-serif !important;
+        line-height: 0px;
+        font-size:16px !important;
+        font-smooth: never !important;
+        -webkit-font-smoothing : none !important;
+    }
+    .community_post_form_widget h1 {
+        font-family:m5x7, sans-serif !important;
+        font-size:16px !important;
+        line-height: 1em;
+        color: #30346d;
+        background-color: #30346d;
+        position: relative;
+        font-smooth: never !important;
+        -webkit-font-smoothing : none !important;
+    }
+
+    .post_grid {
+        font-family:m5x7, sans-serif !important;
+        line-height: 1em;
+        font-size:16px !important;
+        font-smooth: never !important;
+        -webkit-font-smoothing : none !important;
+    }
+
+    .post_grid h1 {
+        font-family:m5x7, sans-serif !important;
+        font-size:16px !important;
+        line-height: 1em;
+        color: #30346d;
+        background-color: #30346d;
+        position: relative;
+        font-smooth: never !important;
+        -webkit-font-smoothing : none !important;
+    }
+
+    /*poster & time*/
+    .post_header {
+        font-family:m5x7, sans-serif !important;
+        font-size:16px !important;
+        font-smooth: never !important;
+        -webkit-font-smoothing : none !important;
+    }
+
+    /*Reply delete report ban*/
+    .post_footer {
+        font-family:m5x7, sans-serif !important;
+        font-size:12px !important;
+        font-smooth: never !important;
+        -webkit-font-smoothing : none !important;
+    }
+    /*------------------------
+             BUTTONS
+    ------------------------*/
+
+    /* buttons */
+    .button {
+        font-family:tic80, sans-serif !important;
+        font-size:16px !important;
+        font-smooth: never !important;
+        -webkit-font-smoothing : none !important;
+    }
+
+    /* "Post comment" button */
+    .buttons.button {
+        font-family: tic80, sans-serif !important;
+        font-smooth: never !important;
+        -webkit-font-smoothing : none !important;
+    }
+
+    .inner_column .button {
+        line-height: 0px;
+        padding: 20px;
+    }
+
+    .inner_column .button a:link {
+      /*text-decoration: underline; none*/
+      color: #deeed6;
+      font-weight: normal;
+    }
+
+    .tic80 {
+        color: #140c1c;
+        color: #442434;
+        color: #30346d;
+        color: #4e4a4e;
+        color: #854c30;
+        color: #346524;
+        color: #d04648;
+        color: #757161;
+        color: #597dce;
+        color: #d27d2c;
+        color: #8595a1;
+        color: #6daa2c;
+        color: #d2aa99;
+        color: #6dc2ca;
+        color: #dad45e;
+        color: #deeed6;
+    }
