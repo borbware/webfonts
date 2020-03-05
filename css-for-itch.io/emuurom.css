@@ -191,6 +191,7 @@
         font-smooth: never !important;
         -webkit-font-smoothing : none !important;
     }
+
     .community_post_form_widget h1 {
         font-family:m5x7, sans-serif !important;
         font-size:16px !important;
@@ -227,6 +228,16 @@
         font-size:16px !important;
         font-smooth: never !important;
         -webkit-font-smoothing : none !important;
+    }
+
+    /*post container*/
+    .community_post_list_widget .community_post .post_body {
+        max-width: 885px;
+    }
+
+    /*view rest*/
+    .game_comments_widget .community_post .reveal_full_post_btn {
+        max-width: 885px;
     }
 
     /*Reply delete report ban*/
